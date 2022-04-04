@@ -1,6 +1,32 @@
-# Bytebank
+# ByteBank
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+
+# 
+
+## Dependencies (Required in case of Fake Backend inputs)
+
+This project use a fake backend REST API [JSON Server](https://github.com/typicode/json-server)
+
+To use JSON Server you'll need to install it using `npm`
+
+**Install JSON Server:**
+
+`npm install -g json-server`
+
+**NOTE:** The file `db.json` is located in the root of project, in the folder `dados`:
+
+`bytebank/dados/db.json`
+
+**In another instance of Terminal (or Command Prompt), start the JSON Server:**
+
+`cd dados`
+
+`json-server --watch db.json`
+
+To check your JSON Server activation status, navigate to `http://localhost:3000/` and look for `Resources` section
+
+# 
 
 ## Development server
 
